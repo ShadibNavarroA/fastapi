@@ -47,3 +47,17 @@ docker rmi fastapi
 ## Documentation
 
 Go to url: http://localhost:8002/docs
+
+# run env mac o linux
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+# run env windows
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+```
